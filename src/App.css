@@ -1,0 +1,101 @@
+.font-style {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.header-panle {
+    width: 100vw;
+    background-color: #000000;
+    height: 5vh;
+}
+
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.margin-l-r {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.header-panle > div {
+    cursor: pointer;
+}
+
+.header {
+    width: 100vw;
+    height: 30vh;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.card:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 350px;
+    width: 350px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    position: relative;
+}
+.sidepanel {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.btn {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.overflow {
+    /* height: 70%; */
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.about {
+    flex: 1;
+}
+.image {
+    flex: 1;
+}
+.name {
+    font-size: 2rem;
+    flex: 1;
+}
+.name > span {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 400;
+}
