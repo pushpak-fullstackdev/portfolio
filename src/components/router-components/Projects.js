@@ -1,12 +1,13 @@
 import React from 'react';
-const Body = ({child}) => {
+
+const Projects = () => {
     return (
         (
             <div>
-                {child}
+                Projects
             </div>
         )
     )
-};
+}
 
-export default Body;
+export default Projects;

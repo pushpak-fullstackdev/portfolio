@@ -60,8 +60,39 @@
 }
 .grid {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 2fr 5fr;
     position: relative;
+}
+.grid > div {
+    height: 100vh;
+    overflow: scroll;
+}
+.grid > div:nth-child(1) {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.grid > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.grid > div:nth-child(1) > div {
+    height: 5vh;
+    width: 80%;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid > div:nth-child(1) > div:hover {
+    color: steelblue;
 }
 .sidepanel {
     display: flex;
@@ -98,4 +129,23 @@ overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: 400;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.flex-container-row > i {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+.flex-container-row > i:hover {
+    font-size: 4rem;
+    color: steelblue;
+}
+.height-10vh {
+    height: 10vh;
 }

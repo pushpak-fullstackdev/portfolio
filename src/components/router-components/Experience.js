@@ -1,12 +1,13 @@
 import React from 'react';
-const Body = ({child}) => {
+
+const Experience = () => {
     return (
         (
             <div>
-                {child}
+                Experience
             </div>
         )
     )
-};
+}
 
-export default Body;
+export default Experience;

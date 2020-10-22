@@ -1,12 +1,13 @@
 import React from 'react';
-const Body = ({child}) => {
+
+const About = () => {
     return (
         (
             <div>
-                {child}
+                About
             </div>
         )
     )
-};
+}
 
-export default Body;
+export default About;
