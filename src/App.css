@@ -146,6 +146,69 @@ img {
     font-size: 4rem;
     color: steelblue;
 }
+.height-5vh {
+    height: 10vh;
+}
 .height-10vh {
     height: 10vh;
+}
+.height-80vh {
+    height: 80vh;
+}
+.myintro {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+}
+.aboutme {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: steelblue;
+    width: 100%;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    width: 100%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.about-grid > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+.about-grid > div:nth-child(1) > div > p {
+    font-size: 2rem;
+    text-align: left;
+}
+.about-grid > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.flex-col > div {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+h4{
+    margin-left: 5%;
+}
+h1 {
+    color: steelblue;
+}
+i:hover {
+    color: steelblue;
 }
